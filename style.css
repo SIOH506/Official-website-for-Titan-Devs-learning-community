@@ -55,7 +55,18 @@ nav a{
 color:white;
 text-decoration:none;
 font-weight:bold;
-transition: color 0.2s ease;
+transition: color 0.2s ease, border-bottom 0.2s ease;
+padding-bottom:5px;
+border-bottom: 2px solid transparent;
+}
+
+nav a:hover{
+color:#60a5fa;
+}
+
+nav a.active{
+color:#60a5fa;
+border-bottom: 2px solid #60a5fa;
 }
 
 /* sections */
